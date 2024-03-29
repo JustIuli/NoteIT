@@ -1,0 +1,21 @@
+{
+  "name": "noteit",
+  "version": "1.0.0",
+  "description": "A simple note taking app",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd client && npm install && cd ../server && npm install",
+    "install-all-yarn": "cd client && yarn install && cd ../server && yarn install",
+    "start-client": "cd client && npm run dev",
+    "start-client-yarn": "cd client && yarn run dev",
+    "start-server": "cd server && npm run start:dev",
+    "start-server-yarn": "cd client && yarn run start:dev",
+    "start-all": "cd client && npm run dev && cd ../server && npm run start:dev",
+    "start-all-yarn": "cd client && yarn run dev && cd ../server && yarn run start:dev"
+  },
+  "keywords": [
+    "Note-Taking","Productivity"
+  ],
+  "author": "Iulian Ciubotariu",
+  "license": "ISC"
+}

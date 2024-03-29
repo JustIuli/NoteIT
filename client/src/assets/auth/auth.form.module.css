@@ -1,0 +1,17 @@
+.formInput {
+    background-color: #171717;
+    color: white;
+
+    :focus{
+        background-color: #191919;
+    }
+
+    border-radius: 10px;
+
+    border:none;
+}
+.errorText{
+    color: #e53e3e;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}

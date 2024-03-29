@@ -1,0 +1,134 @@
+.container {
+    max-height: 100vh;
+    width: 100%;
+    background-color: light-dark(var(--mantine-color-gray-1) , var(--mantine-color-dark-8));
+    overflow: hidden;
+}
+
+.Actions{
+    background-color: #212121 !important;
+    border-color: #212121;
+}
+
+.saveIcon , .infoIcon , .actionsIcon , .goBackIcon{
+    color: light-dark(var(--mantine-color-dark-9) , white);
+}
+
+.menuArrow{
+    border-color: #0B60B0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--mantine-spacing-md);
+    border-bottom: 1px solid light-dark(#d2dadd , var(--mantine-color-dark-7));
+    align-items: center;
+    width: 100%;
+    background-color: light-dark(#FAFAFA , var(--mantine-color-dark-8));
+}
+
+.title {
+    font-size: 1.5rem; /* equivalent to text-xl in Tailwind */
+    color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+}
+
+.formContainer {
+    height: calc(90% - 4rem); /* Adjusting for the header's height */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+textarea{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+textarea::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.form {
+    padding: 1.5rem 3rem; /* equivalent to px-12 py-4 in Tailwind */
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 1rem; /* equivalent to space-x-4 in Tailwind */
+    @media (max-width: $mantine-breakpoint-sm) {
+        padding: 0.5rem 1rem;
+    }
+}
+
+.addTagsButton{
+    color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+}
+
+.tagTitle {
+    padding-top: 1em;
+    font-size: 1.5rem;
+    color: light-dark(var(--mantine-color-red-9), var(--mantine-color-red-9));
+    background-color: transparent;
+}
+
+.saveButton {
+    font-size: 1.5rem; /* equivalent to text-xl in Tailwind */
+    color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+    background-color: transparent;
+    border: none;
+}
+
+.tagsInput{
+    font-size: 1.1rem; /* equivalent to text-xl in Tailwind */
+    color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+}
+.tagsInput::placeholder{
+    color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+}
+
+.tagsFormBody{
+    background-color: #1F1F1F;
+    color:white;
+    padding-top: 10px;
+}
+
+.tagContainer{
+    display: flex;
+    align-items: center;
+}
+
+.tagsPreview{
+    padding:1.5rem 3rem;
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        padding: 0.5rem 1rem;
+    }
+}
+
+.tagsFormHeader{
+    background-color: #171717;
+    color: white;
+}
+.tagsFormContent{
+    background-color: transparent;
+    border-radius: var(--mantine-radius-md);
+}
+
+.textAreaTitle {
+    background-color: transparent;
+    outline: none;
+    resize: none;
+    border: none;
+    overflow: hidden;
+    color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.textArea {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    color: light-dark(var(--mantine-color-dark-9), var(--mantine-color-dark-0));
+    height: 100%;
+    font-size: 1.5rem; /* equivalent to text-xl in Tailwind */
+}

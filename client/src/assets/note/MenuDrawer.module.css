@@ -1,0 +1,37 @@
+.header{
+    background-color: light-dark(#FAFAFA , var(--mantine-color-dark-9));
+}
+.shell{
+    background-color: light-dark(#FAFAFA , var(--mantine-color-dark-8));
+}
+
+.settingBox{
+    border-radius: var(--mantine-radius-md);
+    background-color: light-dark(#E8E8E8 , var(--mantine-color-dark-6));
+}
+
+.title{
+    color: light-dark(var(--mantine-color-dark-8),#FAFAFA);
+    font-weight: bold;
+    font-size: large;
+}
+
+.link{
+    background-color: #0B60B0;
+}
+
+.activeLink{
+    background-color: #0B60B0;
+}
+
+.closeButton{
+    stroke: white;
+
+    :hover{
+        stroke: #171717;
+    }
+}
+
+.menuBody{
+    padding-top: 10px;
+}

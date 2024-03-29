@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg aria-hidden="true" role="img" class="iconify iconify--logos" width="31.88" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 257" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="115.055" y1="22.849" x2="115.055" y2="256.322" id="gradient-1" gradientTransform="matrix(0.488774, -0.993475, 0.414286, 0.198481, 33.658642, 184.198204)">
+      <stop offset="0" style="stop-color: rgb(0, 193, 255);"/>
+      <stop offset="1" style="stop-color: rgb(74, 52, 254);"/>
+    </linearGradient>
+  </defs>
+  <path d="M 256.671 11.033 L 135.699 254.063 C 133.202 259.08 126.786 259.111 124.249 254.118 L 0.881 11.056 C -1.882 5.615 2.259 -0.976 7.748 0.127 L 128.849 24.445 C 129.621 24.6 130.412 24.598 131.186 24.44 L 249.753 0.162 C 255.224 -0.959 259.384 5.582 256.671 11.033 Z" style="fill: url('#gradient-1'); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0, -1, 1, 0, 0, -0.000004)"/>
+  <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 10.7px; white-space: pre;" transform="matrix(5.565948, 0, 0, 5.516129, -394.138275, -410.95636)" x="76.148" y="100.516">NoteIT</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 10.7px;" x="113.08" y="97.089"> </text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 10.7px;" x="277.179" y="42.643"><tspan x="277.1789855957031" dy="1em">​</tspan><tspan x="277.1789855957031" dy="1em">​</tspan></text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 10.7px;" x="294.313" y="51.4"> </text>
+</svg>
